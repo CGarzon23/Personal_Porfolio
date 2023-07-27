@@ -39,29 +39,36 @@ menu {
 
 .me {
     padding: 20px 50px;
-    height: 450px;
-    width: 350px;
+    height: 661px;
+    width: 528px;
 
 }
 
 .main-info {
-   background-color:#EBEBEB ;
+   background-color:#EBEBEB ;  
+}
+
+.text-menu{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .wrapper-under {
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
 }
 
 .main-info h3 {
-    font-size: 15px;
-    width: 300px;
+    font-size: 18px;
+    width: 400px;
     font-weight: 100;
 }
 .main-info h1 {
-    font-size: 30px;
+    height: 5px;
+    font-size: 55px;
     text-align: center;
     
 }

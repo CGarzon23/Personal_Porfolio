@@ -1,0 +1,31 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+body {
+    line-height: 1.4rem;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.me {
+    height: 250px;
+    width: 150px;
+
+}
+
+.main-info {
+    display: flex;
+}
+
+div.menu {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,14 +1,36 @@
 html {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #EBEBEB;
 }
 
 body {
     line-height: 1.4rem;
 }
 
+/* Header */
 
+header {
+    
+}
+
+menu {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.menu ul {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131448;
+    color: white;
+    padding: 5px 25px;
+}
 
 .container {
     display: flex;
@@ -16,16 +38,30 @@ body {
 }
 
 .me {
-    height: 250px;
-    width: 150px;
+    padding: 20px 50px;
+    height: 450px;
+    width: 350px;
 
 }
 
 .main-info {
-    display: flex;
+   background-color:#EBEBEB ;
 }
 
-div.menu {
+.wrapper-under {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;    
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-info h3 {
+    font-size: 15px;
+    width: 300px;
+    font-weight: 100;
+}
+.main-info h1 {
+    font-size: 30px;
+    text-align: center;
+    
 }

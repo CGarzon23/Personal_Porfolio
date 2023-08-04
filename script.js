@@ -1,7 +1,8 @@
-let button = document.getElementById("test");
+let button = document.getElementById("test").click();
+let image = document.getElementById("first-page");
 
 function actionButtons(event) {
-    event.target.style.backgroundcolor = "blue";
+    image.style.display = "none";
 }
 
 button.addEventListener(click, actionButtons);

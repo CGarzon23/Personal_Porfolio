@@ -213,7 +213,6 @@ menu {
     padding-bottom: 20px;
     width: 80%;
 }
-
 /* Footer */
 
 .footer {
@@ -225,10 +224,18 @@ menu {
 }
 
 .footer span {
-    width: 50%;
+    width: 50%;    
 }
 
 .socials {
     padding-top: 20px;
+}
+
+.footer a[href^="mailto"]:hover {
+    color: white;
+}
+
+.footer a[href^="mailto"] {
+    color: beige;
 }
 

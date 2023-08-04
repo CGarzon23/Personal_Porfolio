@@ -36,6 +36,25 @@ menu {
     padding: 5px 25px;
 }
 
+.contact-link a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link a {
+    text-decoration: none;
+}
+
+.about-me a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.about-me a {
+    text-decoration: none;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -90,6 +109,10 @@ menu {
 
 .button-header a:visited {
     color: white;
+}
+
+.button-header a {
+    text-decoration: none;
 }
 
 /* Questions Section */
@@ -239,3 +262,13 @@ menu {
     color: beige;
 }
 
+
+/* Contact */ 
+
+.contact-info {       
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 80px;
+}
